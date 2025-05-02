@@ -1,7 +1,7 @@
 # Man in the Middle Project
 
 ## What's This?
-This is my "Man in the Middle" project I came up with and coded during the COVID-19 lockdown. I was stuck at home and got curious about network attacks, so I built this Python script to learn how MITM attacks work using ARP spoofing. It’s for educational purposes only, so use it responsibly!
+This is my "Man in the Middle" project, which I originally wrote from scratch during the COVID-19 lockdown. I was bored at home and got curious about network attacks, so I came up with this Python script to learn how MITM attacks work using ARP spoofing. The original code got deleted, so this is my best shot at recreating it. It’s for learning only, so please use it responsibly!
 
 ## What It Does
 - Tricks devices into thinking my computer is the gateway (ARP spoofing).
@@ -32,7 +32,7 @@ This is my "Man in the Middle" project I came up with and coded during the COVID
 
 ## Important Notes
 - Only test this on networks you own or have permission to use!
-- I made this to learn during COVID, not to cause trouble.
+- I wrote this myself to learn during COVID, not to cause any harm.
 - It might not work on networks with strong security (e.g., ARP protection).
 
 ## If It Doesn’t Work
@@ -41,4 +41,4 @@ This is my "Man in the Middle" project I came up with and coded during the COVID
 - **Network Issues**: Check if the target and gateway are reachable (`ping`).
 
 ## Final Word
-I built this during lockdown just for fun while getting into network security. It’s a simple little script I came up with myself, and I’m pretty proud of it! Feel free to use it for learning — just keep it legal.
+I coded this from scratch during lockdown to dive into network security, and I’m proud of rebuilding it after losing the original. It’s a simple script I thought up myself—use it for learning, and keep it legal!
